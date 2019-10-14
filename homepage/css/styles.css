@@ -52,3 +52,10 @@ appear aligned to the right side */
 .navbar-toggler {
   padding: 0.3rem 0.6rem;
 }
+/* -------------------------------------------------------
+Everything else below navigation bar should have a top margin
+equal to the height of the navigation bar
+*/
+.no-nav {
+  margin-top: calc(2.8rem + 4px);
+}
