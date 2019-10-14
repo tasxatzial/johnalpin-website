@@ -67,3 +67,8 @@ main h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+/* move right all content in career subsections */
+#career p, #career ul {
+  padding-left: 16px;
+}
