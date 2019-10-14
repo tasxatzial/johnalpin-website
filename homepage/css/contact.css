@@ -69,3 +69,13 @@ input[type="submit"]:active {
   position: relative;
   top: 1px;
 }
+
+/* the labels of the input boxes */
+.form-label {
+  margin-bottom: .1rem;
+}
+
+/* the label and the corresponding input area as a whole */
+.form-element {
+  margin-bottom: .8rem;
+}
