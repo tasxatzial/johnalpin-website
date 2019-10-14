@@ -18,7 +18,7 @@ figure {
   margin-right: 20px;
 }
 
-/* photo,video,audio:
+/* photo,video,audio elements:
    all of them should fit their container */
 figure img {
   width: 100%;
@@ -32,7 +32,7 @@ figure video {
   max-width: 100%;
 }
 
-/* alignment of photo/video on the page */
+/* alignment of photo/video elements on the page */
 .img-vid-list {
   display: flex;
   flex-flow: row wrap;
@@ -40,7 +40,7 @@ figure video {
   align-items: flex-end;
 }
 
-/* alignment of audio on the page */
+/* alignment of audio elements on the page */
 #audio-list {
   display: flex;
   flex-flow: column nowrap;
