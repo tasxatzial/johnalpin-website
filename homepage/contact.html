@@ -82,6 +82,33 @@
             <td class="contact-value">info@johnalpin.com</td>
           </tr>
         </table>
+        <!-- start of contact form -->
+        <div id="contact-form">
+          <header>
+            <h2>Send me a message</h2>
+          </header>
+          <form action="#" method="POST">
+            <div class="form-element">
+              <label for="form-name" class="form-label">Name</label><br>
+              <input type="text" name="name" id="form-name" required>
+            </div>
+            <div class="form-element">
+              <label for="form-email" class="form-label">Email address</label><br>
+              <input type="text" name="email" id="form-email" required
+              pattern="^[\w!#$%&'*+/=?^`{|}~-]+(?:\.[\w!#$%&'*+/=?^`{|}~-]+)*@(?:[a-z\d](?:[a-z\d-]*[a-z\d])?\.)+[a-z\d](?:[a-z\d-]*[a-z\d])?$/i">
+            </div>
+            <div class="form-element">
+              <label for="form-subject" class="form-label">Subject</label><br>
+              <input type="text" name="subject-title" id="form-subject" required>
+            </div>
+            <div class="form-element">
+              <p class="form-label">Message</p>
+              <textarea name="interests" rows="2" cols="50" placeholder="Max 500 characters" maxlength="500" required></textarea>
+            </div>
+            <input type="submit" value="Send message">
+          </form>
+        </div>
+        <!-- end of contact form -->
       </main>
     </div>
     <!-- end of img-info-form -->
