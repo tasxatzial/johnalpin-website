@@ -52,4 +52,6 @@ Greetings section
   height: calc(100vh - 2.8rem - 4px);
   min-height: 35rem;
   max-height: 70rem;
+
+  text-align: center;
 }
