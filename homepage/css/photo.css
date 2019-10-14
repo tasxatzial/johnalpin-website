@@ -7,3 +7,24 @@ a[href="photo.html"] {
 a[href="index.html"], a[href="contact.html"] {
   color: rgba(255, 255, 255, 0.6);
 }
+/* -------------------------------------------------------
+gallery
+*/
+
+/* max width of photo/video */
+figure {
+  max-width: 450px;
+}
+
+/* photo,video,audio:
+   all of them should fit their container */
+figure img {
+  width: 100%;
+}
+figure video {
+  width: 100%;
+  display: block;
+}
+#audio-element audio {
+  max-width: 100%;
+}
