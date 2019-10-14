@@ -4,3 +4,23 @@ html {
 body {
   font-family: 'Lato', sans-serif;
 }
+/* -------------------------------------------------------
+navigation bar
+*/
+
+/* arrangement of elements */
+#navbar-content {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 95rem;
+}
+
+/* prevent the collapsed navbar grow so that individual menu entries
+appear aligned to the right side */
+#collapsibleNavbar {
+  flex-grow: 0;
+}
