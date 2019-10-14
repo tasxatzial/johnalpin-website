@@ -16,3 +16,13 @@ contact info
   width: 20px;
   height: 20px;
 }
+
+/* info labels */
+.contact-label {
+  font-size: 1.2rem;
+}
+
+/* the actual address, phone nr, email */
+.contact-value {
+  color: gray;
+}
