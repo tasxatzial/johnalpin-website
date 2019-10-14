@@ -15,14 +15,22 @@ contact info
 #address-img img, #phone-img img, #email-img img {
   width: 20px;
   height: 20px;
+  margin-right: 10px;
 }
 
 /* info labels */
 .contact-label {
   font-size: 1.2rem;
+  margin-bottom: 15px;
 }
 
 /* the actual address, phone nr, email */
 .contact-value {
   color: gray;
+  margin-bottom: 15px;
+}
+
+/* contact info is arranged in a table */
+table {
+  border-spacing: 10px 5px;
 }
