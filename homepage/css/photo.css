@@ -20,6 +20,7 @@ figure {
    all of them should fit their container */
 figure img {
   width: 100%;
+  box-shadow: 3px 3px 8px 0px rgba(0,0,0,.2);
 }
 figure video {
   width: 100%;
