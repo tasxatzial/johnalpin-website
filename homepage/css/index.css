@@ -58,3 +58,12 @@ Greetings section
   background-image: url(../images/index.jpg);
   background-size: cover;
 }
+/* -------------------------------------------------------
+resume section
+*/
+
+/* career subsections */
+main h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
