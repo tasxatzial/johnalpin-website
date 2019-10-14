@@ -24,3 +24,28 @@ appear aligned to the right side */
 #collapsibleNavbar {
   flex-grow: 0;
 }
+
+/* navbar */
+.navbar {
+  background-color: #324a69;
+  box-shadow: 0px 6px 8px 0px rgba(0,0,0,.1);
+}
+
+/* menu links */
+.navbar li {
+  font-size: 1.2rem;
+}
+.navbar li a:hover {
+  background-color: #4d968a;
+}
+
+/* logo */
+.navbar-brand h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* make the burger menu look closer to a square */
+.navbar-toggler {
+  padding: 0.3rem 0.6rem;
+}
