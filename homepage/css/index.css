@@ -7,3 +7,13 @@ Navbar appearance when home page is shown
 a[href="photo.html"], a[href="contact.html"] {
   color: rgba(255, 255, 255, 0.6);
 }
+/* -------------------------------------------------------
+Greetings section
+*/
+
+/* face photo */
+#landing img {
+  width: 12rem;
+  max-width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
