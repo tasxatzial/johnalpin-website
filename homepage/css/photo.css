@@ -11,9 +11,11 @@ a[href="index.html"], a[href="contact.html"] {
 gallery
 */
 
-/* max width of photo/video */
+/* photo/video */
 figure {
   max-width: 450px;
+  margin-bottom: 15px;
+  margin-right: 20px;
 }
 
 /* photo,video,audio:
@@ -48,4 +50,21 @@ figure video {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+}
+
+/* space around the title of photo/video/audio sections */
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* distance between a photo and its caption */
+figcaption {
+  margin-top: .2rem;
+}
+
+/* space around the label of an audio file */
+#audio-list p {
+  margin-bottom: 0;
+  margin-right: 20px;
 }
