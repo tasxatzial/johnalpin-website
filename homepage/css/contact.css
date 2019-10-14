@@ -33,6 +33,7 @@ contact info
 /* contact info is arranged in a table */
 table {
   border-spacing: 10px 5px;
+  margin-bottom: 2rem;
 }
 /* -------------------------------------------------------
 contact form
