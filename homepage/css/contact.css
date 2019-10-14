@@ -34,3 +34,21 @@ contact info
 table {
   border-spacing: 10px 5px;
 }
+/* -------------------------------------------------------
+contact form
+*/
+
+/* the title of the contact form */
+#contact-form h2 {
+  font-size: 1.75rem;
+}
+
+/* fit input boxes and text area to their container */
+input[type="text"], textarea {
+  width: 100%;
+}
+
+/* textarea should hold 500 chars */
+textarea {
+  height: 13.8rem;
+}
