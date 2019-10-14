@@ -7,3 +7,12 @@ a[href="contact.html"] {
 a[href="photo.html"], a[href="index.html"] {
   color: rgba(255, 255, 255, 0.6);
 }
+/* -------------------------------------------------------
+contact info
+*/
+
+/* icons that appear to the left of the labels */
+#address-img img, #phone-img img, #email-img img {
+  width: 20px;
+  height: 20px;
+}
