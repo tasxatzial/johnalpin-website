@@ -54,4 +54,7 @@ Greetings section
   max-height: 70rem;
 
   text-align: center;
+
+  background-image: url(../images/index.jpg);
+  background-size: cover;
 }
