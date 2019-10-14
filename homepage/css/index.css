@@ -17,3 +17,10 @@ Greetings section
   max-width: 100%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
+
+/* 'Hi greeting */
+#landing p {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  font-size: 2.3rem;
+}
