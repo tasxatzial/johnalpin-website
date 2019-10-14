@@ -1,0 +1,9 @@
+/* -------------------------------------------------------
+Navbar appearance when contact page is shown
+*/
+a[href="contact.html"] {
+  text-decoration: underline;
+}
+a[href="photo.html"], a[href="index.html"] {
+  color: rgba(255, 255, 255, 0.6);
+}

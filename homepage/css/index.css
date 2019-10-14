@@ -1,0 +1,9 @@
+/* -------------------------------------------------------
+Navbar appearance when home page is shown
+*/
+.nav-link[href="index.html"] {
+  text-decoration: underline;
+}
+a[href="photo.html"], a[href="contact.html"] {
+  color: rgba(255, 255, 255, 0.6);
+}
