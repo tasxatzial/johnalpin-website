@@ -29,3 +29,23 @@ figure video {
 #audio-element audio {
   max-width: 100%;
 }
+
+/* alignment of photo/video on the page */
+.img-vid-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* alignment of audio on the page */
+#audio-list {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+#audio-element {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
