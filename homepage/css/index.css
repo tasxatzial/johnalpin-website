@@ -112,6 +112,10 @@ scrolling
   }
 }
 @media only screen and (max-width: 30rem) {
+  #landing {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   #landing p {
     font-size: 1.47rem;
   }
