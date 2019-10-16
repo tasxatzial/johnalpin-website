@@ -80,3 +80,30 @@ input[type="submit"]:active {
 .form-element {
   margin-bottom: .8rem;
 }
+/* -------------------------------------------------------
+alignment and positioning of the contact info/form section
+and the left image.
+*/
+
+#img-info-form {
+  max-width: 95rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* the left image should shrink a lot faster when window is resized */
+#left-img {
+  background-image: url(../images/space.jpg);
+  background-size: cover;
+  flex: 0 15 63rem;
+}
+
+/* the contact info/form section should shrink when window is resized
+but by a very little amount */
+main {
+  flex: 0 1 32rem;
+  padding-bottom: 1rem;
+}
