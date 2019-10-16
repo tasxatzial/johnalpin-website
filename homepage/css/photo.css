@@ -11,7 +11,7 @@ a[href="index.html"], a[href="contact.html"] {
 gallery
 */
 
-/* photo/video */
+/* photo/video container */
 figure {
   max-width: 450px;
   margin-bottom: 20px;
@@ -19,8 +19,7 @@ figure {
   margin-left: 10px;
 }
 
-/* photo,video,audio elements:
-   all of them should fit their container */
+/* photo,video,audio elements */
 figure img {
   width: 100%;
   box-shadow: 3px 3px 8px 0px rgba(0,0,0,.2);
@@ -33,7 +32,7 @@ figure video {
   max-width: 100%;
 }
 
-/* alignment of photo/video elements on the page */
+/* page alignment of photo/video entries */
 .img-vid-list {
   display: flex;
   flex-flow: row wrap;
@@ -41,12 +40,14 @@ figure video {
   align-items: flex-end;
 }
 
-/* alignment of audio elements on the page */
+/* page alignment of the list that has the audio entries */
 #audio-list {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
 }
+
+/* self alignment of the label,controls for each audio entry */
 #audio-element {
   display: flex;
   flex-flow: row wrap;
@@ -66,7 +67,7 @@ figcaption {
   margin-top: .2rem;
 }
 
-/* space around the label of an audio file */
+/* space around the label of an audio entry */
 #audio-list p {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -74,7 +75,7 @@ figcaption {
   margin-left: 15px;
 }
 
-/* center align main section */
+/* center align the whole gallery */
 main {
   max-width: 95rem;
   margin-left: auto;
@@ -82,8 +83,8 @@ main {
   padding-bottom: 1rem;
 }
 /* -------------------------------------------------------
-completely remove margins of photo/video elements in lower
-resolution screens so that they appear larger
+completely remove margins of photo/video in lower
+resolution screens so that they have more vertical space
 */
 @media only screen and (max-width: 38rem) {
   figure {

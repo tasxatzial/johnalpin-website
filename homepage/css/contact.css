@@ -44,12 +44,12 @@ contact form
   font-size: 1.75rem;
 }
 
-/* fit input boxes and text area to their container */
+/* make input boxes as wide as possible */
 input[type="text"], textarea {
   width: 100%;
 }
 
-/* textarea should hold 500 chars */
+/* message box should hold 500 chars (at 16px browser font size) */
 textarea {
   height: 13.8rem;
 }
@@ -65,7 +65,7 @@ input[type="submit"] {
   background: linear-gradient(to bottom, #54a89a, #4d968a);
 }
 
-/* press effect */
+/* button press effect */
 input[type="submit"]:active {
   position: relative;
   top: 1px;
