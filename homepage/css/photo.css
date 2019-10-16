@@ -28,7 +28,7 @@ figure video {
   width: 100%;
   display: block;
 }
-#audio-element audio {
+.audio-element audio {
   max-width: 100%;
 }
 
@@ -48,7 +48,7 @@ figure video {
 }
 
 /* self alignment of the label,controls for each audio entry */
-#audio-element {
+.audio-element {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
