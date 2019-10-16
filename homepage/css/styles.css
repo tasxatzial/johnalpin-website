@@ -108,7 +108,7 @@ decrease font size of navigation bar elements in lower resolution screens
   height of the navigation bar. So we should also decrease the
   top margin of the non navigation part */
   .no-nav {
-    margin-top: calc(2.6rem + 4px);
+    margin-top: calc(2.55rem + 4px);
   }
 }
 
