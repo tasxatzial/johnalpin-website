@@ -121,3 +121,9 @@ decrease font size of navigation bar elements in lower resolution screens
     padding-left: 15px;
   }
 }
+
+@media only screen and (max-width: 35rem) {
+  main {
+    box-shadow: none;
+  }
+}
