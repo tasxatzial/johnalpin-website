@@ -126,4 +126,10 @@ decrease font size of navigation bar elements in lower resolution screens
   main {
     box-shadow: none;
   }
+
+  /* make the background color of the non navigation part the same
+  as the foreground */
+  .no-nav {
+    background: #fafcfb;
+  }
 }
