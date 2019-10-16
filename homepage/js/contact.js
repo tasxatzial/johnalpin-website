@@ -4,12 +4,16 @@ query.addListener(changeName);
 changeName(query);
 
 function changeName(query) {
-  let child = document.getElementById('left-img');
-  let parent = document.getElementById('img-info-form');
+  let parent;
   if (query.matches) {
-    parent.removeChild(child);
+    let child = document.getElementById('left-img');
+    if (child != null) {
+      parent = document.getElementById('img-info-form');
+      parent.removeChild(child);
+    }
   }
   else {
+    parent = document.getElementById('img-info-form');
     let div = document.createElement('div');
     let nextChild = document.getElementsByTagName('main');
     div.setAttribute('id', 'left-img');
