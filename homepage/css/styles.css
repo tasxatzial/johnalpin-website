@@ -59,3 +59,14 @@ equal to the height of the navigation bar
 .no-nav {
   margin-top: calc(2.8rem + 4px);
 }
+
+/* alignment/positioning of main sections on every page:
+resume, gallery, contact info/form */
+main {
+  max-width: 95rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  background: #fafcfb;
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,.1);
+}
