@@ -76,3 +76,12 @@ main {
   margin-right: auto;
   padding-bottom: 1rem;
 }
+/* -------------------------------------------------------
+completely remove margins of photo/video elements in lower
+resolution screens so that they appear larger
+*/
+@media only screen and (max-width: 38rem) {
+  figure {
+    margin-right: 0;
+  }
+}
