@@ -58,7 +58,7 @@ figure video {
 
 /* space around the title of photo/video/audio sections */
 h3 {
-  margin-top: 2rem;
+  margin-top: 32px;
   margin-bottom: 1rem;
 }
 
@@ -80,7 +80,7 @@ main {
   max-width: 95rem;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1rem;
+  padding-bottom: 16px;
 }
 /* -------------------------------------------------------
 completely remove margins of photo/video in lower

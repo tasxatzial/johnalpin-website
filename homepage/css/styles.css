@@ -85,8 +85,8 @@ two horizontal lines to the left and to the right of an element
 
 /* the content between the two lines */
 .between-lines {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 /* -------------------------------------------------------
 decrease font size of text in navigation bar in lower resolution screens
