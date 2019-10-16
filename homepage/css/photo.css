@@ -50,7 +50,9 @@ figure video {
 #audio-element {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 /* space around the title of photo/video/audio sections */
@@ -66,8 +68,10 @@ figcaption {
 
 /* space around the label of an audio file */
 #audio-list p {
-  margin-bottom: 0;
-  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /* center align main section */
