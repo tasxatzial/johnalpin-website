@@ -70,3 +70,22 @@ main {
   background: #fafcfb;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,.1);
 }
+/* -------------------------------------------------------
+two horizontal lines to the left and to the right of an element 
+*/
+.double-hr { 
+  display: flex; 
+  flex-direction: row; 
+}
+.double-hr:before, .double-hr:after { 
+  content: ""; 
+  flex: 1 1; 
+  border-bottom: 1px solid rgba(192,192,192,0.5); 
+  margin: auto;
+}
+
+/* the content between the two lines */
+.between-lines {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
