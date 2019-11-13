@@ -69,6 +69,13 @@ main {
   background: #fafcfb;
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,.1);
 }
+
+.biography-section {
+  margin-bottom: 2rem;
+}
+.biography-subsection {
+  margin-bottom: 1.5rem;
+}
 /* -------------------------------------------------------
 two horizontal lines to the left and to the right of an element 
 */
@@ -76,7 +83,7 @@ two horizontal lines to the left and to the right of an element
   display: flex; 
   flex-direction: row; 
 }
-.double-hr:before, .double-hr:after { 
+.double-hr:after { 
   content: ""; 
   flex: 1 1; 
   border-bottom: 1px solid rgba(192,192,192,0.5); 
@@ -85,7 +92,6 @@ two horizontal lines to the left and to the right of an element
 
 /* the content between the two lines */
 .between-lines {
-  margin-left: 16px;
   margin-right: 16px;
 }
 /* -------------------------------------------------------
