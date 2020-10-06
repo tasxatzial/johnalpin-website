@@ -1,6 +1,6 @@
 # Description
 
-A simple personal website.
+A very basic personal website.
 
 ## Language
 
