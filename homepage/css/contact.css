@@ -1,16 +1,3 @@
-/* -------------------------------------------------------
-Navbar appearance when contact page is shown
-*/
-a[href="contact.html"] {
-  text-decoration: underline;
-}
-a[href="photo.html"], a[href="index.html"] {
-  color: rgba(255, 255, 255, 0.6);
-}
-/* -------------------------------------------------------
-contact info
-*/
-
 /* icons that appear to the left of the labels */
 #address-img img, #phone-img img, #email-img img {
   width: 20px;
@@ -47,6 +34,9 @@ contact form
 /* make input boxes as wide as possible */
 input[type="text"], input[type="email"], textarea {
   width: 100%;
+  background-color: #f4f8ff;
+  border-radius: 3px;
+  border: 1px solid silver;
 }
 
 /* message box should hold 500 chars (at 16px browser font size) */
@@ -59,10 +49,17 @@ input[type="submit"] {
   color: white;
   border: 1px solid green;
   border-radius: 3px;
-  padding: 9px 15px;
+  padding: 8px 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   background: linear-gradient(to bottom, #54a89a, #4d968a);
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+  transform: scale(1.05);
+  color: white;
 }
 
 /* button press effect */
