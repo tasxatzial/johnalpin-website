@@ -1,19 +1,17 @@
-# Description
+# CV homepage
 
 A very basic personal website.
 
-## Language
-
-Plain HTML, CSS, Javascript. The menu bar uses Bootstrap.
+**Note:** This is one of my earliest attemps at writing HTML/CSS/Javascript. There is plenty of room for improvements, especially regarding the code style.
 
 ## Implementation
 
-The website is responsive.
+Responsive website (>= 320px).
 
-## Run
+## Run locally
 
-Open [index.html](homepage/index.html) in your browser.
+Download the repo and open [index.html](homepage/index.html) in your browser.
 
 ## Screenshots
 
-Check the [screenshots](/screenshots) folder.
+See [screenshots](screenshots/).
