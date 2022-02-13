@@ -1,6 +1,6 @@
 # CV homepage
 
-A very basic personal website.
+A very basic personal website. See it live [here](https://tasxatzial.github.io/cv-homepage).
 
 **Note:** This is one of my earliest attemps at writing HTML/CSS/Javascript. There is plenty of room for improvements, especially regarding the code style.
 
