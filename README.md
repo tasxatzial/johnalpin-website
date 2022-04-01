@@ -1,16 +1,22 @@
-# CV homepage
+# John Alpin website
 
-A very basic personal website. See it live [here](https://tasxatzial.github.io/cv-homepage).
+A simple website about an imaginary person. See it live [here](https://tasxatzial.github.io/johnalpin-website).
 
-**Note:** This is one of my earliest attemps at writing HTML/CSS/Javascript. There is plenty of room for improvements, especially regarding the code style.
+**Note:** This is one of my earliest attemps at writing HTML,CSS,Javascript. Therefore, there is plenty of room for improvements.
 
 ## Implementation
 
-Responsive website (>= 320px).
+This project was built with:
+
+* Plain HTML, CSS, Javascript.
+
+### Frontend
+
+* Responsive website (CSS flexbox, responsive image markup).
 
 ## Run locally
 
-Download the repo and open [index.html](homepage/index.html) in your browser.
+Download the repo and open 'src/index.html' in your browser.
 
 ## Screenshots
 
