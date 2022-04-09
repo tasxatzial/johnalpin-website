@@ -30,17 +30,14 @@ figure video {
 /* page alignment of the list that has the audio entries */
 #audio-list {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column;
   align-items: center;
 }
 
 /* self alignment of the label,controls for each audio entry */
 .audio-element {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+  width: 100%; /* fixes IE11 overflow */
+  text-align: center;
 }
 
 /* space around the title of photo/video/audio sections */
@@ -69,6 +66,7 @@ main {
   margin-right: auto;
   padding-bottom: 16px;
 }
+
 /* -------------------------------------------------------
 completely remove margins of photo/video in lower
 resolution screens so that they have more vertical space

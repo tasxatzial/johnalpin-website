@@ -15,6 +15,7 @@
 
 /* short message */
 #landing h2 {
+  width: 100%; /* fixes IE11 overflow */
   max-width: 55rem;
   padding-left: 70px;
   padding-right: 70px;
