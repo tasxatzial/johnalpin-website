@@ -59,20 +59,14 @@ appear aligned to the right side of navbar */
 .navbar-toggler {
   padding: 0.3rem 0.6rem;
 }
-/* -------------------------------------------------------
-Everything else below navigation bar should have a top margin
-equal to the height of the navigation bar
-*/
+
 .no-nav {
-  margin-top: calc(2.8rem + 4px);
+  min-height: 100vh;
   background-color: whitesmoke;
 }
 
-/* alignment/positioning of main sections on every page:
-resume, gallery, contact info/form */
 main {
   max-width: 95rem;
-  min-height: calc(100vh - 2.8rem - 4px);
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 30px;
@@ -104,11 +98,8 @@ two horizontal lines to the left and to the right of an element
 .between-lines {
   margin-right: 16px;
 }
-/* -------------------------------------------------------
-decrease font size of text in navigation bar in lower resolution screens
-(90% of the initial size) */
-@media only screen and (max-width: 45rem), (max-height: 45rem) {
 
+@media only screen and (max-width: 45rem) {
   /* logo */
   .navbar-brand h1 {
     font-size: 1.35rem;
@@ -118,16 +109,6 @@ decrease font size of text in navigation bar in lower resolution screens
   .navbar li {
     font-size: 1.08rem;
   }
-
-  /* decrease in font size automatically means a decrease of the
-  height of the navigation bar. So we should also decrease the
-  top margin of the non navigation part */
-  .no-nav {
-    margin-top: calc(2.55rem + 4px);
-  }
-}
-
-@media only screen and (max-width: 45rem) {
 
   /* decrease paddings so that elements have more vertical space */
   main {

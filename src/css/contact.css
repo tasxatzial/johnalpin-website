@@ -39,7 +39,7 @@ input[type="text"], input[type="email"], textarea {
   border: 1px solid silver;
 }
 
-/* message box should hold 500 chars (at 16px browser font size) */
+/* message box should hold 500 chars */
 textarea {
   height: 13.8rem;
 }
@@ -77,11 +77,11 @@ input[type="submit"]:active {
 .form-element {
   margin-bottom: .8rem;
 }
+
 /* -------------------------------------------------------
 alignment and positioning of the contact info/form section
 and the left image.
 */
-
 #img-info-form {
   max-width: 95rem;
   display: flex;
@@ -92,7 +92,9 @@ and the left image.
 }
 
 main {
-  padding-bottom: 1rem;
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 @media screen and (min-width: 35rem) {

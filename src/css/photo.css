@@ -64,14 +64,11 @@ main {
   max-width: 95rem;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5rem;
   padding-bottom: 16px;
 }
 
-/* -------------------------------------------------------
-completely remove margins of photo/video in lower
-resolution screens so that they have more vertical space
-*/
-@media only screen and (max-width: 38rem) {
+@media only screen and (max-width: 35rem) {
   figure {
     margin-right: 0;
     margin-left: 0;
