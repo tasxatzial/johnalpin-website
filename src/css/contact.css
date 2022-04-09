@@ -91,16 +91,14 @@ and the left image.
   margin-right: auto;
 }
 
-/* the left image should shrink a lot faster when window is resized */
-#left-img {
-  background-image: url(../images/space.jpg);
-  background-size: cover;
-  flex: 0 15 63rem;
+main {
+  padding-bottom: 1rem;
 }
 
-/* the contact info/form section should shrink when window is resized
-but by a very little amount */
-main {
-  flex: 0 1 32rem;
-  padding-bottom: 1rem;
+@media screen and (min-width: 35rem) {
+  #left-img {
+    background-image: url(../images/space.jpg);
+    background-size: cover;
+    flex: 0 5 1000px;
+  }
 }
