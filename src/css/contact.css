@@ -97,10 +97,18 @@ main {
   padding-bottom: 2rem;
 }
 
+.no-nav {
+  background-color: white;
+}
+
 @media screen and (min-width: 35rem) {
   #left-img {
     background-image: url(../images/space.jpg);
     background-size: cover;
     flex: 0 5 1000px;
+  }
+
+  .no-nav {
+    background-color: whitesmoke;
   }
 }
