@@ -2,13 +2,13 @@
 
 A simple website about an imaginary person. See it live [here](https://tasxatzial.github.io/johnalpin-website).
 
-**Note:** This is one of my earliest attemps at writing HTML,CSS,Javascript. Therefore, there is plenty of room for improvements.
+**Note:** This is one of my earliest attempts at writing HTML, CSS.
 
 ## Implementation
 
 This project was built with:
 
-* Plain HTML, CSS, Javascript.
+* Plain HTML, CSS.
 
 ### Frontend
 
