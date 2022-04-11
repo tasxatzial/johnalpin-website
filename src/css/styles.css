@@ -85,7 +85,8 @@ two horizontal lines to the left and to the right of an element
 */
 .double-hr { 
   display: flex; 
-  flex-direction: row; 
+  flex-direction: row;
+  align-items: center;
 }
 .double-hr:after { 
   content: ""; 
