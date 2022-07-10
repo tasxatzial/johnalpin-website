@@ -1,22 +1,23 @@
 # John Alpin website
 
-A simple website about an imaginary person. See it live [here](https://tasxatzial.github.io/johnalpin-website).
+A simple website for an imaginary person.
 
-**Note:** This is one of my earliest attempts at writing HTML, CSS.
+**Note:** This is one of my earliest attempts at writing HTML and CSS.
 
 ## Implementation
 
-This project was built with:
+* Responsive (flexbox, picture element).
 
-* Plain HTML, CSS.
+## Dependencies
 
-### Frontend
+External:
 
-* Responsive website (CSS flexbox, responsive image markup).
+* [Bootstrap](https://github.com/twbs/bootstrap).
+* [Picturefill](https://github.com/scottjehl/picturefill) polyfill.
 
 ## Run locally
 
-Download the repo and open 'src/index.html' in your browser.
+Download the 'src' folder and open 'index.html' in the browser.
 
 ## Screenshots
 
