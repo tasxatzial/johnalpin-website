@@ -6,11 +6,13 @@ A simple website for an imaginary person.
 
 ## Implementation
 
-* Responsive (flexbox, picture element).
+* Responsive + responsive image markup.
 
 ## Dependencies
 
-External:
+The project is written in HTML, CSS, JavaScript.
+
+The following dependencies require an online connection:
 
 * [Bootstrap](https://github.com/twbs/bootstrap).
 * [Picturefill](https://github.com/scottjehl/picturefill) polyfill.
